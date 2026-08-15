@@ -1,0 +1,46 @@
+name: Update BingX Contracts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-bingx-contracts
+  cancel-in-progress: false
+
+jobs:
+  update-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch active USDT-M contracts
+        env:
+          BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
+          BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
+        run: python scripts/update-contracts.py
+
+      - name: Commit updated contract list
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/contracts.json
+          if git diff --cached --quiet; then
+            echo "Contract list is already current."
+            exit 0
+          fi
+          git commit -m "chore: update BingX contract list"
+          git push

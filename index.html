@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="BingX USDT-M 永續合約即時行情 Dashboard"
+    />
+    <meta name="theme-color" content="#0b0d10" />
+    <title>BingX Market Scanner</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand-block">
+        <div class="brand-mark" aria-hidden="true">BX</div>
+        <div>
+          <p class="eyebrow">MARKET DATA</p>
+          <h1>BingX Market Scanner</h1>
+          <p class="subtitle">USDT Perpetual Futures</p>
+        </div>
+      </div>
+
+      <div
+        id="connection-status"
+        class="connection-status is-connecting"
+        role="status"
+        aria-live="polite"
+      >
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="connection-status-text">CONNECTING</span>
+      </div>
+    </header>
+
+    <main class="dashboard-shell">
+      <section class="stats-grid" aria-label="市場統計">
+        <article class="stat-card">
+          <span class="stat-label">USDT 永續合約</span>
+          <strong id="total-contracts" class="stat-value">—</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">目前顯示</span>
+          <strong id="visible-contracts" class="stat-value">—</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">LIVE Symbols</span>
+          <strong id="live-symbols" class="stat-value">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">最後更新</span>
+          <strong id="last-updated" class="stat-value stat-time">—</strong>
+        </article>
+      </section>
+
+      <section class="market-panel" aria-labelledby="market-table-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">LIVE MARKETS</p>
+            <h2 id="market-table-title">永續合約行情</h2>
+          </div>
+
+          <div class="toolbar">
+            <label class="search-field" for="market-search">
+              <span class="visually-hidden">搜尋商品</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18">
+                <path d="m21 21-4.2-4.2m1.2-5.3a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" />
+              </svg>
+              <input
+                id="market-search"
+                type="search"
+                inputmode="search"
+                autocomplete="off"
+                placeholder="搜尋 BTC、ETH、PEPE..."
+              />
+            </label>
+
+            <label class="sort-field" for="market-sort">
+              <span class="visually-hidden">排序方式</span>
+              <select id="market-sort" aria-label="排序方式">
+                <option value="default">預設排序</option>
+                <option value="az">A → Z</option>
+                <option value="za">Z → A</option>
+                <option value="change-desc">24H 漲幅最高</option>
+                <option value="change-asc">24H 跌幅最大</option>
+                <option value="volume-desc">成交量最高</option>
+                <option value="price-desc">價格最高</option>
+                <option value="price-asc">價格最低</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div id="market-message" class="market-message" role="status" aria-live="polite">
+          <span class="loading-indicator" aria-hidden="true"></span>
+          <p id="market-message-text">正在載入 BingX USDT 永續合約...</p>
+        </div>
+
+        <div id="table-wrap" class="table-wrap" hidden>
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">商品</th>
+                <th scope="col" class="number-column">即時價格</th>
+                <th scope="col" class="number-column">24H</th>
+                <th scope="col" class="number-column optional-column">24H High</th>
+                <th scope="col" class="number-column optional-column">24H Low</th>
+                <th scope="col" class="number-column optional-column">24H Volume</th>
+                <th scope="col" class="status-column optional-column">狀態</th>
+              </tr>
+            </thead>
+            <tbody id="market-table-body"></tbody>
+          </table>
+        </div>
+
+        <div id="empty-state" class="market-message" hidden>
+          <p>找不到符合的 USDT 永續合約。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <span>Data Source: BingX OpenAPI</span>
+      <span>Real-time market data via BingX WebSocket</span>
+      <span>V0.1</span>
+    </footer>
+
+    <noscript>此 Dashboard 需要啟用 JavaScript 才能顯示即時行情。</noscript>
+    <script src="https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js"></script>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
