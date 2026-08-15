@@ -4549,7 +4549,7 @@
     "quoteAsset": "USDT",
     "displaySymbol": "NCSKXIAOMI2USD/USDT.P",
     "status": "TRADING",
-    "pricePrecision": 4
+    "pricePrecision": 3
   },
   {
     "symbol": "NCSKXLE2USD-USDT",
