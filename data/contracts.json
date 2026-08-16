@@ -4725,7 +4725,7 @@
     "quoteAsset": "USDT",
     "displaySymbol": "ON/USDT.P",
     "status": "TRADING",
-    "pricePrecision": 5
+    "pricePrecision": 4
   },
   {
     "symbol": "ONDO-USDT",
@@ -4741,7 +4741,7 @@
     "quoteAsset": "USDT",
     "displaySymbol": "ONE/USDT.P",
     "status": "TRADING",
-    "pricePrecision": 6
+    "pricePrecision": 7
   },
   {
     "symbol": "ONG-USDT",
@@ -6005,7 +6005,7 @@
     "quoteAsset": "USDT",
     "displaySymbol": "W/USDT.P",
     "status": "TRADING",
-    "pricePrecision": 5
+    "pricePrecision": 6
   },
   {
     "symbol": "WAL-USDT",
