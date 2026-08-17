@@ -1,0 +1,53 @@
+name: Update OKX Instruments
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-okx-instruments
+  cancel-in-progress: false
+
+jobs:
+  update-instruments:
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate Python
+        run: |
+          python -m py_compile scripts/update-okx-instruments.py
+
+      - name: Fetch live OKX USDT perpetual instruments
+        run: |
+          python scripts/update-okx-instruments.py
+
+      - name: Commit updated instrument list
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/instruments.json
+
+          if git diff --cached --quiet; then
+            echo "Instrument list is already current."
+            exit 0
+          fi
+
+          git commit -m "chore: update OKX instrument list"
+          git push
