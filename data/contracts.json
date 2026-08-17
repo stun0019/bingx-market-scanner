@@ -2592,10 +2592,42 @@
     "pricePrecision": 3
   },
   {
+    "symbol": "NCCOALUMINIUM2USD-USDT",
+    "baseAsset": "NCCOALUMINIUM2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOALUMINIUM2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOGASOLINE2USD-USDT",
+    "baseAsset": "NCCOGASOLINE2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOGASOLINE2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 1
+  },
+  {
     "symbol": "NCCOGOLD2USD-USDT",
     "baseAsset": "NCCOGOLD2USD",
     "quoteAsset": "USDT",
     "displaySymbol": "NCCOGOLD2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOHEATINGOIL2USD-USDT",
+    "baseAsset": "NCCOHEATINGOIL2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOHEATINGOIL2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 1
+  },
+  {
+    "symbol": "NCCOLEAD2USD-USDT",
+    "baseAsset": "NCCOLEAD2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOLEAD2USD/USDT.P",
     "status": "TRADING",
     "pricePrecision": 2
   },
@@ -2608,6 +2640,22 @@
     "pricePrecision": 2
   },
   {
+    "symbol": "NCCOSOYBEANS2USD-USDT",
+    "baseAsset": "NCCOSOYBEANS2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOSOYBEANS2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOWHEAT2USD-USDT",
+    "baseAsset": "NCCOWHEAT2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOWHEAT2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 3
+  },
+  {
     "symbol": "NCCOXAG2USD-USDT",
     "baseAsset": "NCCOXAG2USD",
     "quoteAsset": "USDT",
@@ -2616,10 +2664,362 @@
     "pricePrecision": 2
   },
   {
+    "symbol": "NCCOXAGEUR2USD-USDT",
+    "baseAsset": "NCCOXAGEUR2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOXAGEUR2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOXAGJPYUSD-USDT",
+    "baseAsset": "NCCOXAGJPYUSD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOXAGJPYUSD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOXAUAUD2USD-USDT",
+    "baseAsset": "NCCOXAUAUD2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOXAUAUD2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOXAUCAD2USD-USDT",
+    "baseAsset": "NCCOXAUCAD2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOXAUCAD2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOXAUCHF2USD-USDT",
+    "baseAsset": "NCCOXAUCHF2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOXAUCHF2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOXAUEUR2USD-USDT",
+    "baseAsset": "NCCOXAUEUR2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOXAUEUR2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOXAUGBP2USD-USDT",
+    "baseAsset": "NCCOXAUGBP2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOXAUGBP2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOXAUJPY2USD-USDT",
+    "baseAsset": "NCCOXAUJPY2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOXAUJPY2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
     "symbol": "NCCOXPT2USD-USDT",
     "baseAsset": "NCCOXPT2USD",
     "quoteAsset": "USDT",
     "displaySymbol": "NCCOXPT2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCCOZINC2USD-USDT",
+    "baseAsset": "NCCOZINC2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCCOZINC2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCFXAUD2JPY-USDT",
+    "baseAsset": "NCFXAUD2JPY",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXAUD2JPY/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 3
+  },
+  {
+    "symbol": "NCFXAUD2USD-USDT",
+    "baseAsset": "NCFXAUD2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXAUD2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXCAD2CHF-USDT",
+    "baseAsset": "NCFXCAD2CHF",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXCAD2CHF/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXCAD2JPY-USDT",
+    "baseAsset": "NCFXCAD2JPY",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXCAD2JPY/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 3
+  },
+  {
+    "symbol": "NCFXEUR2CAD-USDT",
+    "baseAsset": "NCFXEUR2CAD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXEUR2CAD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXEUR2CHF-USDT",
+    "baseAsset": "NCFXEUR2CHF",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXEUR2CHF/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXEUR2GBP-USDT",
+    "baseAsset": "NCFXEUR2GBP",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXEUR2GBP/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXEUR2JPY-USDT",
+    "baseAsset": "NCFXEUR2JPY",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXEUR2JPY/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 3
+  },
+  {
+    "symbol": "NCFXEUR2USD-USDT",
+    "baseAsset": "NCFXEUR2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXEUR2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXEURSGD2USD-USDT",
+    "baseAsset": "NCFXEURSGD2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXEURSGD2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXGBP2AUD-USDT",
+    "baseAsset": "NCFXGBP2AUD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXGBP2AUD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXGBP2CAD-USDT",
+    "baseAsset": "NCFXGBP2CAD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXGBP2CAD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXGBP2CHF-USDT",
+    "baseAsset": "NCFXGBP2CHF",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXGBP2CHF/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXGBP2JPY-USDT",
+    "baseAsset": "NCFXGBP2JPY",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXGBP2JPY/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 3
+  },
+  {
+    "symbol": "NCFXGBP2NZD-USDT",
+    "baseAsset": "NCFXGBP2NZD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXGBP2NZD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXGBP2USD-USDT",
+    "baseAsset": "NCFXGBP2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXGBP2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXGBPSGD2USD-USDT",
+    "baseAsset": "NCFXGBPSGD2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXGBPSGD2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXNZD2CAD-USDT",
+    "baseAsset": "NCFXNZD2CAD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXNZD2CAD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXNZD2JPY-USDT",
+    "baseAsset": "NCFXNZD2JPY",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXNZD2JPY/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 3
+  },
+  {
+    "symbol": "NCFXNZD2USD-USDT",
+    "baseAsset": "NCFXNZD2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXNZD2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2CAD-USDT",
+    "baseAsset": "NCFXUSD2CAD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2CAD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2CHF-USDT",
+    "baseAsset": "NCFXUSD2CHF",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2CHF/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2DKK-USDT",
+    "baseAsset": "NCFXUSD2DKK",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2DKK/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2JPY-USDT",
+    "baseAsset": "NCFXUSD2JPY",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2JPY/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 3
+  },
+  {
+    "symbol": "NCFXUSD2KRW-USDT",
+    "baseAsset": "NCFXUSD2KRW",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2KRW/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2MXN-USDT",
+    "baseAsset": "NCFXUSD2MXN",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2MXN/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2NOK-USDT",
+    "baseAsset": "NCFXUSD2NOK",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2NOK/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2PLN-USDT",
+    "baseAsset": "NCFXUSD2PLN",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2PLN/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2SEK-USDT",
+    "baseAsset": "NCFXUSD2SEK",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2SEK/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2TRY-USDT",
+    "baseAsset": "NCFXUSD2TRY",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2TRY/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSD2ZAR-USDT",
+    "baseAsset": "NCFXUSD2ZAR",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSD2ZAR/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCFXUSDSGD2USD-USDT",
+    "baseAsset": "NCFXUSDSGD2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCFXUSDSGD2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 5
+  },
+  {
+    "symbol": "NCSIDOWJONES2USD-USDT",
+    "baseAsset": "NCSIDOWJONES2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCSIDOWJONES2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 1
+  },
+  {
+    "symbol": "NCSIDXY2USD-USDT",
+    "baseAsset": "NCSIDXY2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCSIDXY2USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCSIEUSTX2USD-USDT",
+    "baseAsset": "NCSIEUSTX2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCSIEUSTX2USD/USDT.P",
     "status": "TRADING",
     "pricePrecision": 2
   },
@@ -2656,10 +3056,34 @@
     "pricePrecision": 2
   },
   {
+    "symbol": "NCSINIKKEI2252USD-USDT",
+    "baseAsset": "NCSINIKKEI2252USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCSINIKKEI2252USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 1
+  },
+  {
+    "symbol": "NCSIRUSSELL20002USD-USDT",
+    "baseAsset": "NCSIRUSSELL20002USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCSIRUSSELL20002USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
     "symbol": "NCSISP5002USD-USDT",
     "baseAsset": "NCSISP5002USD",
     "quoteAsset": "USDT",
     "displaySymbol": "NCSISP5002USD/USDT.P",
+    "status": "TRADING",
+    "pricePrecision": 2
+  },
+  {
+    "symbol": "NCSIUK2USD-USDT",
+    "baseAsset": "NCSIUK2USD",
+    "quoteAsset": "USDT",
+    "displaySymbol": "NCSIUK2USD/USDT.P",
     "status": "TRADING",
     "pricePrecision": 2
   },
